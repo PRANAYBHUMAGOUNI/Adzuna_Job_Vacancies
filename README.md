@@ -59,6 +59,20 @@ The approach taken in this project includes:
 - **Data Storage:** Storing extracted data in a Pandas DataFrame for easy manipulation and analysis.
 - **Error Handling:** Implementing try-except blocks to manage potential errors during scraping and navigation.
 
+## Assumptions
+
+Here are some assumptions I want you to keep in mind while using this project:
+
+1. **Internet Connectivity:** I assume we need to have a stable internet connection because the application needs to access the Adzuna website for scraping job listings. Without it, the scraping process won't work.
+
+2. **WebDriver Compatibility:** It's important that we have installed the correct version of Microsoft Edge WebDriver that matches your version of the Microsoft Edge browser. If there's a mismatch, we may encounter errors when trying to run the application.
+
+3. **Website Structure:** I've designed the scraping logic based on the current structure of the Adzuna website. If they change their HTML layout or class names, we'll need to update the XPath or CSS selectors in the code accordingly.
+
+4. **Python Environment:** I assume we need to be familiar with Python and have a suitable development environment set up, like Anaconda or virtualenv. This will help us run the script without issues.
+
+5. **Ethical Scraping:** Lastly, I trust that we'll adhere to ethical scraping practices and comply with Adzuna's terms of service regarding data usage. It's important to respect their guidelines while using this tool.
+
 ## Sample Output
 
 Upon running the Adzuna_Job_Vacancies.ipynb, you should see output similar to the following:
